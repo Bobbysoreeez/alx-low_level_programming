@@ -4,9 +4,11 @@
  * main - program that prints out the alphabts both in lower and upprcase
  * Return: Always(0)
  */
+
 int main(void)
 {
-	for (letter = 'a'; letter <= 'z'; letter++)
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 
 	{
 		putchar(letter);
