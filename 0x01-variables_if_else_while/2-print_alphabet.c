@@ -4,9 +4,11 @@
  * Description: prints all alphabts in lower case
  * Return: Always 0
  */
+
 int main(void)
 {
 	char alphabet = 'a';
+
 	while (alphabet <= 'z')
 
 	{
@@ -14,5 +16,6 @@ int main(void)
 		alphabet++;
 	}
 	putchar('\n');
+
 	return (0);
 }
