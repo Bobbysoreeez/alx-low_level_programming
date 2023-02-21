@@ -12,10 +12,7 @@ int main(void)
 		putchar(k + '0');
 	{
 		if (k < 10)
-		{
 			putchar(',');
-			putchar(' ');
-		}
 	}
 		return (0);
 }
