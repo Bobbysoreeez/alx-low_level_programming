@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char al;
+	char l;
 
 for (al = 'z'; al >= 'a'; al--)
-putchar('al');
+putchar('l');
 
 putchar('\n');
 return (0);
