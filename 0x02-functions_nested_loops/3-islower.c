@@ -3,17 +3,11 @@
  * main - program that checks for lowercase letters
  * Return: 1 success
  */
-int main(void)
+int _islower(int c)
 {
-	char chr = 'c';
-
-	if (islower(chr))
-	{
+	if (c >= 'a' && c <= 'z')
 		return (1);
-	}
-
+	
 	else
-	{
 		return (0);
-	}
 }
