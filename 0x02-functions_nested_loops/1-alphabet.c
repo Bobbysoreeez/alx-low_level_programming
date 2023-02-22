@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * main - prints alphabets
+ * Return: Always 0
+ */
+int main(void)
+{
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		_putchar(alphabet);
+
+	_putchar('\n');
+}
+
