@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char chr = c;
+	char chr = 'c';
 
-	if (islower(c))
+	if (islower(chr))
 	{
 		return (1);
 	}
