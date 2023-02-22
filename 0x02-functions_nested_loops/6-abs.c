@@ -4,7 +4,7 @@
  * @n: the int to check
  * Return: 0 success
  */
-int _abs(int);
+int _abs(int)
 {
 	int n;
 
